@@ -1,4 +1,4 @@
-# Your Package
+# Distance Coordinate Calculator | Laravel Package
 
 A package to calculate the distance between two coordinate points.
 
