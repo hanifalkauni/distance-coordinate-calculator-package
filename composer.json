@@ -1,0 +1,42 @@
+{
+    "name": "alkauni/distance-coordinate-calculator",
+    "description": "A Package to calculate the distance between two coordinate points",
+    "keywords": ["distance", "coordinates", "calculator"],
+    "license": "MIT",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Alkauni\\DistanceCoordinateCalculator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alkauni\\DistanceCoordinateCalculator\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hanifalkauni",
+            "email": "zechnider@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alkauni\\DistanceCoordinateCalculator\\DistanceServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

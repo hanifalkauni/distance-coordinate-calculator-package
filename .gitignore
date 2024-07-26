@@ -1,0 +1,17 @@
+# Ignore the vendor directory
+vendor/
+
+# Ignore environment file
+.env
+
+# Ignore operating system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore PHPUnit result cache
+*.phpunit.result.cache
+
+# Ignore Composer lock file
+composer.lock
